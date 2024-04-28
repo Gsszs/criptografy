@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "encrypt.h"
-#include "serial_number.h"
+#include "modules/encrypt.h"
+#include "modules/serial_number.h"
 
 int main() {
     char* serial_number = get_usb_serial_number();
