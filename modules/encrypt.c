@@ -41,6 +41,33 @@ const char* encrypt(char input) {
         case 'Y': return "XA";
         case 'Z': return "TR";
 
+        case 'a': return "LMN";
+        case 'b': return "JKL";
+        case 'c': return "FGH";
+        case 'd': return "BCD";
+        case 'e': return "RST";
+        case 'f': return "OPQ";
+        case 'g': return "XYZ";
+        case 'h': return "UVW";
+        case 'i': return "NOP";
+        case 'j': return "MNO";
+        case 'k': return "HIJ";
+        case 'l': return "EFG";
+        case 'm': return "WXY";
+        case 'n': return "KLM";
+        case 'o': return "ABC";
+        case 'p': return "QRS";
+        case 'q': return "TUV";
+        case 'r': return "STU";
+        case 's': return "UVW";
+        case 't': return "YZA";
+        case 'u': return "BCD";
+        case 'v': return "CDE";
+        case 'w': return "FGH";
+        case 'x': return "IJK";
+        case 'y': return "LMN";
+        case 'z': return "OPQ";
+
         default: return "?";
     }
 }
